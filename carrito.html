@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action=”ejecutar.php” metod=”get”> 
+    <h3>Name:</h3><input type=”text” name=”opcion1” id=”opcion1”>
+
+
+    <h3>Ingredientes:</h3>
+    
+        <label><input type="checkbox" id="box1" value="primer_checkbox">Patata</label><br>
+        <label><input type="checkbox" id="box2" value="segundo_checkbox">Cebolla</label><br>
+        <label><input type="checkbox" id="box3" value="tercer_checkbox">Aceite</label><br>
+        <label><input type="checkbox" id="box4" value="cuarto_checkbox">Tomate</label><br>
+        <label><input type="checkbox" id="box5" value="quinto_checkbox">Sal</label><br>
+        <label><input type="checkbox" id="box6" value="sexto_checkbox">Lechuga</label><br>
+        <label><input type="checkbox" id="box7" value="septimo_checkbox">Huevos</label><br>
+        <label><input type="checkbox" id="box8" value="octavo_checkbox">Chorizo</label><br>
+
+    <h3>Tienda:</h3>
+    <select name=”election”>
+		<option value=”opcion1”>Mercadona</option>
+		<option value=”opcion2”>Suma</option>
+        <option value=”opcion2”>Dia</option>
+        <option value=”opcion2”>BonArea</option>
+    </select>
+
+    <h3>Entrega:</h3>
+        <label><input type="radio" id="box9" name="radio1" value="primer_radio">recoger</label><br>
+        <label><input type="radio" id="box10" name="radio1" value="segundo_radio">domicilio</label><br>
+
+    <h3>Observaciones:</h3>
+    <textarea name="hola" id=”hola”></textarea>
+    <br>
+    <br>
+    <input type="submit" value="comprar">
+</form>
+</body>
+</html>
